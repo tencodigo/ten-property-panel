@@ -1,4 +1,4 @@
-# cgo-canvas-editor
+# ten-canvas-editor
 
 ## Project setup
 ```
