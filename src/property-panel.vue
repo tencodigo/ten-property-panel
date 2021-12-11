@@ -1,5 +1,5 @@
 <template>
-  <div class="cgo-properties" :class="{'handle-left':handleLeft,'handle-right':handleRight}">
+  <div class="ten-properties" :class="{'handle-left':handleLeft,'handle-right':handleRight}">
     <div class="handle left"></div>
     <div class="wrap">
       <div class="list floating-labels">
@@ -28,9 +28,8 @@
 </script>
 
 <style lang="scss">
-  @import "assets/scss/floating";
 
-  .cgo-properties {
+  .ten-properties {
     width:100%;
     height:100%;
     overflow-y: hidden;
