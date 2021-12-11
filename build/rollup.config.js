@@ -70,7 +70,7 @@ if (!argv.format || argv.format === 'es') {
     ...baseConfig,
     external,
     output: {
-      file: 'dist/codigo-property-panel.esm.js',
+      file: 'dist/ten-property-panel.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -104,9 +104,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/codigo-property-panel.ssr.js',
+      file: 'dist/ten-property-panel.ssr.js',
       format: 'cjs',
-      name: 'CodigoPropertyPanel',
+      name: 'TenPropertyPanel',
       exports: 'named',
       globals,
     },
@@ -133,9 +133,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/codigo-property-panel.min.js',
+      file: 'dist/ten-property-panel.min.js',
       format: 'iife',
-      name: 'CodigoPropertyPanel',
+      name: 'TenPropertyPanel',
       exports: 'named',
       globals,
     },

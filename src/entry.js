@@ -1,11 +1,11 @@
 // Import vue component
-import component from '@/codigo-property-panel.vue';
+import component from '@/property-panel.vue';
 
 // install function executed by Vue.use()
-const install = function installCodigoPropertyPanel(Vue) {
+const install = function installTenPropertyPanel(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('CodigoPropertyPanel', component);
+  Vue.component('TenPropertyPanel', component);
 };
 
 // Create module definition for Vue.use()

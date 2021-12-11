@@ -1,11 +1,11 @@
 {
-  "name": "codigo-property-panel",
-  "version": "1.0.0",
+  "name": "@ten/property-panel",
+  "version": "0.0.0",
   "description": "",
-  "main": "dist/codigo-property-panel.ssr.js",
-  "browser": "dist/codigo-property-panel.esm.js",
-  "module": "dist/codigo-property-panel.esm.js",
-  "unpkg": "dist/codigo-property-panel.min.js",
+  "main": "dist/property-panel.ssr.js",
+  "browser": "dist/roperty-panel.esm.js",
+  "module": "dist/property-panel.esm.js",
+  "unpkg": "dist/property-panel.min.js",
   "files": [
     "dist/*",
     "src/**/*.vue"
@@ -17,16 +17,21 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass-loader": "10.1.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
     "@rollup/plugin-alias": "^2.2.0",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-replace": "^2.3.2",
     "@vue/cli-plugin-babel": "^4.3.1",
     "@vue/cli-service": "^4.3.1",
     "cross-env": "^7.0.2",
+    "husky": "^4.2.5",
     "minimist": "^1.2.5",
     "rollup": "^2.7.3",
     "rollup-plugin-babel": "^4.4.0",
@@ -34,9 +39,7 @@
     "rollup-plugin-vue": "^5.1.6",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
-    "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
-    "husky": "^4.2.5"
+    "ten-form": "^0.3.1"
   },
   "husky": {
     "hooks": {
@@ -47,6 +50,6 @@
     "vue": "^2.6.11"
   },
   "engines": {
-    "node": ">=10"
+    "yarn": "^1.22.17"
   }
 }

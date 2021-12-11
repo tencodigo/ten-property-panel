@@ -3,11 +3,8 @@
     <div class="handle left"></div>
     <div class="wrap">
       <div class="list floating-labels">
-        <cgo-form-input id="f1" title="Field 1" :floating="true"></cgo-form-input>
-        <cgo-form-input id="f2" title="Field 2" :floating="true" :type="'number'"></cgo-form-input>
-        <cgo-form-input id="f3" title="Field 3" :floating="true"></cgo-form-input>
-        <cgo-form-input id="f4" title="Field 4" :floating="true"></cgo-form-input>
-        <cgo-form-input id="f5" title="Field 5" :floating="true"></cgo-form-input>
+        <slot name="fields">
+        </slot>
       </div>
     </div>
     <div class="handle right"></div>
@@ -15,10 +12,8 @@
 </template>
 
 <script>
-  import CgoFormInput from "./cgo-form-input";
   export default {
-    name: "codigo-property-panel",
-    components: {CgoFormInput},
+    name: "ten-property-panel",
     props: {
       handleLeft: {
         type: Boolean,
@@ -51,16 +46,30 @@
         width:100%;
         min-height:100%;
         .form-group {
-          padding-left: .25rem;
-          border-bottom: 1px #aaaaaa;
+          padding-left: 0;
+          border-bottom: 1px #aaaaaa solid;
           label {
             border:none;
+            padding-left: 0.15rem;
+          }
+          input {
+            padding-left: 0.15rem;
+          }
+          &:focus-within {
+            background-color: #eeeeee;
+            outline: 1px #eeeeee;
+            input {
+              background-color: transparent;
+            }
           }
         }
         input {
           border: none;
           padding-left: 0;
           padding-right: 0;
+          &:focus-visible {
+            outline: none;
+          }
         }
       }
     }
