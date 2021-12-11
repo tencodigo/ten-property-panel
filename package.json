@@ -1,6 +1,6 @@
 {
   "name": "ten-property-panel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "dist/property-panel.ssr.js",
   "browser": "dist/roperty-panel.esm.js",

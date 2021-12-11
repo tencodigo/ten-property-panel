@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/tencodigo/ten-property-panel/compare/v0.1.2...v0.1.3) (2021-12-11)
+
+
+### Bug Fixes
+
+* remove assets ([2a4ff68](https://github.com/tencodigo/ten-property-panel/commit/2a4ff68c6abc805b7c1a9d2b99a541e6d904c712))
+
+
+
 ## [0.1.2](https://github.com/tencodigo/ten-property-panel/compare/v0.1.1...v0.1.2) (2021-12-11)
 
 
