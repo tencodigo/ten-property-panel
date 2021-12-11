@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/tencodigo/ten-property-panel/compare/v0.1.0...v0.1.1) (2021-12-11)
+
+
+### Bug Fixes
+
+* publish ([073a0c6](https://github.com/tencodigo/ten-property-panel/commit/073a0c6de96d93ff77df378c61dde77dc0608390))
+
+
+
 # [0.1.0](https://github.com/tencodigo/ten-property-panel/compare/v0.0.0...v0.1.0) (2021-12-11)
 
 
