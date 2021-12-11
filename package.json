@@ -1,5 +1,5 @@
 {
-  "name": "@ten/property-panel",
+  "name": "ten-property-panel",
   "version": "0.1.0",
   "description": "",
   "main": "dist/property-panel.ssr.js",
